@@ -9,7 +9,7 @@ def Main():
     port = 5050
     
     mySocket = socket.socket()
-    mySocket.bind((host,port))
+    mySocket.connect((host,port))
     
     
     message = input('--> ')
